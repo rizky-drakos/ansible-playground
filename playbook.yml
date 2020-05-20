@@ -1,5 +1,6 @@
 ---
-- hosts: localhost
+- name: Ansible playground on Docker containers
+  hosts: docker
   tasks:
-  - name: Update apt-cache 
-    apt: update_cache=yes
+  - name: Ping the container
+    ping:
