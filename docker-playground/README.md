@@ -1,6 +1,5 @@
 ### Instructions
-- [ ] Build the image.
-
+- [ ] Build the image
 ```console
 docker build --tag ansible-docker-playground:latest .
 ```
