@@ -1,0 +1,6 @@
+---
+- name: Vagrant provisioner
+  hosts: default
+  tasks:
+    - name: Connection verification
+      ping:
