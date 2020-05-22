@@ -1,2 +1,6 @@
-# ansible-playground
-Creating simple playgrounds for experimenting with Ansible
+### Instructions
+- [ ] Build the image.
+
+```console
+docker build --tag ansible-docker-playground:latest .
+```
