@@ -1,4 +1,4 @@
 [docker]
-
-# change <my-container> to your container's name
+# my-container: your container's name
+# ansible_connection: use docker connection plugin
 my-container   ansible_connection=docker
