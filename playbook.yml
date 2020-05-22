@@ -1,0 +1,6 @@
+---
+- name: Ansible playground on Docker containers
+  hosts: docker
+  tasks:
+  - name: Ping the container
+    ping:
